@@ -1,0 +1,48 @@
+<footer id="footer">
+  <ul class="icons">
+  {% if site.owner.twitter %}
+    <li><a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+  {% endif %}
+  {% if site.owner.facebook %}
+    <li><a href="https://facebook.com/{{ site.owner.facebook }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+  {% endif %}
+  {% if site.owner.github %}
+    <li><a href="https://github.com/{{ site.owner.github }}" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+  {% endif %}
+  {% if site.owner.email %}
+    <li><a href="mailto:{{ site.owner.email }}" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+  {% endif %}
+  </ul>
+  <ul class="copyright">
+    <li>Made with <i class="icon fa-heart-o" style="color:red;"></i><li>
+    <li>(and help from <a href="http://html5up.net/strata" target="_blank">Strata</a> and <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>)</li>
+  </ul>
+</footer>
+<!-- Scripts -->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.poptrox.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/main.js"></script>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "{{ site.baseurl }}{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "{{ page.permalink }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//karthikbalakrishnan.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
