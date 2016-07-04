@@ -2,9 +2,7 @@
 title: Karthik Balakrishnan
 email: karthikb351@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Karthik Balakrishnan is a developer by day and activist by night. He has been involved with numerous online movements such as #SaveTheInternet, ChennaiRains.org, #SaveTheMap, etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://karthikbalakrishnan.com" # the base hostname & protocol for your site
 
