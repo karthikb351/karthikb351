@@ -2,7 +2,9 @@
 title: Karthik Balakrishnan
 email: karthikb351@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Karthik Balakrishnan is a developer by day and activist by night. He has been involved with numerous online movements such as #SaveTheInternet, ChennaiRains.org, #SaveTheMap, etc.
+  Karthik Balakrishnan is a developer by day and activist by night.
+  He has been involved with numerous online movements such as
+  #SaveTheInternet, ChennaiRains.org, #SaveTheMap, etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://karthikbalakrishnan.com" # the base hostname & protocol for your site
 
@@ -18,3 +20,11 @@ markdown: kramdown
 
 sass:
     sass_dir: assets/css/_partials
+
+collections:
+  projects:
+    output: true
+    permalink: /work/:path/
+
+gems:
+  - jekyll-redirect-from

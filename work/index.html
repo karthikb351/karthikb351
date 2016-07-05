@@ -1,6 +1,6 @@
 ---
+redirect_from: "/cv"
 layout: default
-permalink: cv/
 description: >
   Karthik Balakrishnan is a developer by day and activist by night.
   This is a list of some of the projects he has been involved with.
@@ -8,7 +8,53 @@ description: >
 <section id="one">
   <h2 style="margin: 0px;">Things I've been involved with</h2>
   <h2><span style="font-size: 0.8em;">(in no particular order)</span></h2>
-  <div class="row">
+  {% assign p = site.projects | sort: 'order' %}
+  {% for project in p %}
+      {% assign loopindex = forloop.index | modulo: 2 %}
+      {% if loopindex == 1 or forloop.first %}
+      <div class="row">
+      {% endif %}
+        <div class="6u 12u$(xsmall)">
+          <div class="row">
+            <div class="4u 4u$(xsmall)">
+              {% if project.logo %}
+              <img src="{{ site.baseurl }}/images/work/{{ project.logo }}" style="width: 100%;" alt="{{ project.title }}">
+              {% else %}
+              <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt=""></a>
+              {% endif %}
+            </div>
+            <div class="8u 8u$(xsmall)" style="padding-left:1em;">
+              <h3 style="margin: 0px;""><a href="{{ project.exturl }}">{{ project.title }}</a></h3>
+              <p>{{ project.role }} {% if project.duration %}<span style="font-size: 0.8em;">({{ project.duration }})</span>{% endif %}</p>
+            </div>
+          </div>
+          {{ project.excerpt | markdownify }}
+          <!-- <div id="{{ project.shortcode }}" class="modal" style="display:none;">
+            <div class="row">
+              <div class="2u 12u$(xsmall)">
+                <img src="{{ site.baseurl }}/images/work/{{ project.logo }}" style="width: 100%;" alt="{{ project.title }}">
+              </div>
+              <div class="10u 12u$(xsmall)">
+                <h3 style="margin: 0px;""><a href="{{ project.exturl }}">{{ project.title }}</a></h3>
+                <p>{{ project.role }} <span style="font-size: 0.8em;">({{ project.duration }})</span></p>
+                {{ project.content }}
+              </div>
+            </div>
+          </div> -->
+          {% if project.nopage %}
+          {% else %}
+          <ul class="actions">
+            <!-- <li><a href="#{{ project.shortcode }}" rel="modal:open" class="button">Read more</a></li> -->
+            <li><a href="{{ project.url }}" class="button">Read more</a></li>
+          </ul>
+          {% endif %}
+        </div>
+      {% if loopindex == 0 or forloop.last %}
+      </div>
+      <hr>
+      {% endif %}
+  {% endfor %}
+  <!-- <div class="row">
     <div class="6u 12u$(xsmall)">
       <div class="row">
         <div class="4u 4u$(xsmall)">
@@ -115,7 +161,7 @@ description: >
         </div>
       </div>
       <p style="text-align:justify;">Built a rapid-response crowdsourced site in response to the floods in Chennai. It was used by thousands of people to crowdsource and coordinate places for shelter, food, aid and people in distress. It also evolved to provide realtime updates from neighbourhoods in the city.</p>
-      <div id="iff" class="modal" style="display:none;">
+      <div id="cro" class="modal" style="display:none;">
         <div class="row">
           <div class="2u 12u$(xsmall)">
             <img src="{{ site.baseurl }}/images/work/cro.png" style="width: 100%;" alt="HasGeek">
@@ -129,28 +175,13 @@ description: >
       </div>
 
       <ul class="actions">
-        <li><a href="#iff" rel="modal:open" class="button">Read more</a></li>
+        <li><a href="#cro" rel="modal:open" class="button">Read more</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
 </section>
-<section id="two">
-  <h2>Also contributed to</h2>
-  <ul>
-    <li><h3><a href="http://savethemap.in">#SaveTheMap</a></h3>
-    <p>A campaign aimed at raising awareness about the Ministry of Home Affairs' proposed draft of the Geospatial Information Regulation Bill 2016.</p></li>
-    <li><h3><a href="http://privacyisaright.in">Privacy is a Right</a></h3>
-    <p>A petition urging the government to recognise and protect your Right to Privacy.</p></li>
-    <li><h3><a href="http://saveourcinema.in">#SaveOurCinema</a></h3>
-    <p>A campaign that hopes to revamp the film censor board(CBFC).</p></li>
-    <li><h3><a href="https://github.com/karthikb351/AutoCaptcha-for-IRCTC">AutoCaptcha for IRCTC</a></h3>
-    <p>A chrome extension that parsed the captcha at IRCTC and autofills it for you.</p></li>
-    <li><h3><a href="http://karthikb351.github.io/notonzomato.in/">#NotOnZomato</a></h3>
-    <p>A small project to crowdsource streetfood in Bangalore.</p></li>
-    <li><h3><a href="http://vitacademics-rel.herokuapp.com/">VITacademics</a></h3>
-    <p>A service and app to help students at VIT University manage their academics.</p></li>
-  </ul>
-  <!-- <div class="row">
+<!-- <section id="two">
+  <div class="row">
     <article class="6u 12u$(xsmall) work-item">
       <a href="{{ site.baseurl }}/images/fulls/01.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/01.jpg" alt="" /></a>
       <p></p>
@@ -176,5 +207,5 @@ description: >
       <a href="{{ site.baseurl }}/images/fulls/06.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/06.jpg" alt="" /></a>
       <p></p>
     </article>
-  </div> -->
-</section>
+  </div>
+</section> -->

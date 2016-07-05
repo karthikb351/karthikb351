@@ -10,6 +10,11 @@
     {% else %}
       {% assign description =  site.description %}
     {% endif %}
+
+    {% if page.image %}
+      {% assign image =  page.image %}
+    {% endif %}
+
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <!-- Search engines -->
     <meta name="description" content="{{ description }}">
@@ -18,7 +23,7 @@
     <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
     <meta itemprop="name" content="{{ title }}">
     <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="">
+    <meta itemprop="image" content="{{ image }}">
     <!-- Twitter -->
     <meta name="twitter:card" content="{{ description }}">
     <meta name="twitter:site" content="@karthikb351">

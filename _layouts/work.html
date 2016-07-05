@@ -1,0 +1,25 @@
+---
+layout: default
+decription: page.excerpt
+---
+{% assign image = {{ site.baseurl }}/images/work/{{ page.logo }} %}
+<div class="post">
+  <header class="post-header">
+    <div class="row">
+      <div class="2u">
+        <img src="{{ site.baseurl }}/images/work/{{ page.logo }}" style="width: 100%;" alt="{{ page.title }}">
+      </div>
+      <div class="10u">
+        <h1 style="margin: 0px;""><a href="{{ page.exturl }}">{{ page.title }}</a></h1>
+        <p>{{ page.role }} <span style="font-size: 0.8em;">({{ page.duration }})</span></p>
+      </div>
+    </div>
+  </header>
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <hr>
+  <ul class="actions">
+    <li><a href="{{ site.baseurl }}/work/" class="button"><- List of projects</a></li>
+  </ul>
+</div>
