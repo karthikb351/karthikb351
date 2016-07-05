@@ -1,0 +1,47 @@
+---
+layout: default
+description: >
+  Karthik Balakrishnan is a developer by day and activist by night.
+  This is a list of some of the projects he has been involved with.
+---
+<section id="one">
+  <h2 style="margin: 0px;">Resume/Curriculum Vitae</h2>
+  <h2><span style="font-size: 0.6em;">(Also see <a href="{{ site.baseurl }}/work/">projects I'm involved with</a>.)</span></h2>
+  <hr>
+  <div class="row">
+    <div class="6u 12u$(xsmall)">
+      <h2>Education</h2>
+      <p><b>B.Tech CSE – VIT University</b>
+      <span style="font-size: 0.8em;">(2011-2015)</span>
+      <br>CGPA – 8.01
+      </p>
+      <p><b>The Frank Anthony Public School, Bangalore</b>
+      <span style="font-size: 0.8em;">(2011)</span>
+      <br>10th Standard – ICSE board – 86%
+      <br>12th Standard – ISC board – 76%
+      </p>
+      <h2>Skills</h2>
+      <b style="font-size: 1.2em;">Programming Frameworks/Technologies</b>
+      <p>Google App Engine (Python), Android, Node.js, AngularJS, Bootstrap/Foundation/Skeleton/Pure, Wordpress, Git/GitHub, MySQL, MongoDB, PostgreSQL</p>
+      <b style="font-size: 1.2em;">Programming Languages</b>
+      <p>Python, JavaScript, Java, PHP, C, C++, HTML, CSS/SCSS</p>
+      <b style="font-size: 1.2em;">Software/Technical Skills</b>
+      <p>Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Graphic Design, UI/UX Design, Office</p>
+    </div>
+    <div class="6u 12u$(xsmall)">
+      <h2>Awards/Recognitions</h2>
+      <b style="font-size: 1.2em;">Google Cloud Developer Challenge 2013 Finalist</b>
+      <p>Placed 4th in the India region for the VITacademics application and were one of the few student-only teams in the competition.</p>
+      <b style="font-size: 1.2em;">BizDroid 2014 Hackathon</b>
+      <p>Received the runner’s up prize at the BizDroid 2014 hackathon for a mobile solution to help YouTube content creators to connect with their audience.</p>
+      <b style="font-size: 1.2em;">AngelHack 2013 Hackathon</b>
+      <p>Received special mention at the AngelHack 2013 hackathon for a mobile application that tracked mobiles phones indoors using Bluetooth Low Energy beacons.</p>
+      <h2>Experience</h2>
+      {% assign p = site.projects | sort: 'order' %}
+      <p>{% for project in p %}<a href="{{ site.baseurl }}/work/#{{ project.shortcode }}">{{ project.title }}</a>, {% endfor %}etc.</p>
+      <ul class="actions">
+        <li><a href="{{ site.baseurl }}/work/" class="button">See all</a></li>
+      </ul>
+    </div>
+  </div>
+</section>

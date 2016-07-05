@@ -1,5 +1,4 @@
 ---
-redirect_from: "/cv"
 layout: default
 description: >
   Karthik Balakrishnan is a developer by day and activist by night.
@@ -7,20 +6,20 @@ description: >
 ---
 <section id="one">
   <h2 style="margin: 0px;">Things I've been involved with</h2>
-  <h2><span style="font-size: 0.8em;">(in no particular order)</span></h2>
+  <h2><span style="font-size: 0.6em;">(in no particular order)</span></h2>
   {% assign p = site.projects | sort: 'order' %}
   {% for project in p %}
       {% assign loopindex = forloop.index | modulo: 2 %}
       {% if loopindex == 1 or forloop.first %}
       <div class="row">
       {% endif %}
-        <div class="6u 12u$(xsmall)">
+        <div id="{{ project.shortcode }}" class="6u 12u$(xsmall)">
           <div class="row">
             <div class="4u 4u$(xsmall)">
               {% if project.logo %}
               <img src="{{ site.baseurl }}/images/work/{{ project.logo }}" style="width: 100%;" alt="{{ project.title }}">
               {% else %}
-              <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt=""></a>
+              <a href="#" class="image avatar"><img src="{{ site.baseurl }}/images/avatar.jpg" alt=""></a>
               {% endif %}
             </div>
             <div class="8u 8u$(xsmall)" style="padding-left:1em;">
