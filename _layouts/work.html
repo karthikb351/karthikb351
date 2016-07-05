@@ -10,8 +10,9 @@ decription: page.excerpt
         <img src="{{ site.baseurl }}/images/work/{{ page.logo }}" style="width: 100%;" alt="{{ page.title }}">
       </div>
       <div class="10u">
-        <h1 style="margin: 0px;""><a href="{{ page.exturl }}">{{ page.title }}</a></h1>
-        <p>{{ page.role }} <span style="font-size: 0.8em;">({{ page.duration }})</span></p>
+        <h1 style="margin: 0px;"">{{ page.title }}</h1>
+        <p>{{ page.role }} <span style="font-size: 0.8em;">({{ page.duration }})</span><br>
+        {% if page.exturl %}<a href="{{ page.exturl }}"><i class="icon fa-link" style="color:grey;"></i></a> {% endif %}{% if page.exttwitter %}<a href="https://twitter.com/{{ page.exttwitter }}"><i class="icon fa-twitter" style="color:grey;"></i></a> {% endif %}{% if page.extgithub %}<a href="https://github.com/{{ page.extgithub }}"><i class="icon fa-github" style="color:grey;"></i></a>{% endif %}</p>
       </div>
     </div>
   </header>
@@ -20,6 +21,6 @@ decription: page.excerpt
   </article>
   <hr>
   <ul class="actions">
-    <li><a href="{{ site.baseurl }}/work/" class="button"><- List of projects</a></li>
+    <li><a href="{{ site.baseurl }}/work/" class="button"><i class="icon fa-angle-double-left"></i> List of projects</a></li>
   </ul>
 </div>

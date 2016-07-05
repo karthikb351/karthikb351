@@ -5,6 +5,7 @@ title: 'VITacademics'
 role: Co-Founder
 duration: Jan 2013 - Nov 2015
 exturl: http://vitacademics-rel.herokuapp.com/
+extgithub: CollegeCODE
 shortcode: vitacademics
 logo: vitacademics.png
 excerpt: >

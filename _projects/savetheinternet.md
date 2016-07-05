@@ -5,6 +5,8 @@ title: '#SaveTheInternet'
 role: Co-Founder
 duration: Apr 2015 - Present
 exturl: http://savetheinternet.in
+exttwitter: iffsti
+extgithub: netneutrality/savetheinternet.in
 logo: savetheinternet.png
 shortcode: savetheinternet
 excerpt: >

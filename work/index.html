@@ -23,8 +23,10 @@ description: >
               {% endif %}
             </div>
             <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-              <h3 style="margin: 0px;""><a href="{{ project.exturl }}">{{ project.title }}</a></h3>
-              <p>{{ project.role }} {% if project.duration %}<span style="font-size: 0.8em;">({{ project.duration }})</span>{% endif %}</p>
+              <h3 style="margin: 0px;""><a href="{{ project.url }}">{{ project.title }}</a></h3>
+              <p>{{ project.role }} {% if project.duration %}<span style="font-size: 0.8em;">({{ project.duration }})</span>{% endif %}<br>
+              {% if project.exturl %}<a href="{{ project.exturl }}"><i class="icon fa-link" style="color:grey;"></i></a> {% endif %}{% if project.exttwitter %}<a href="https://twitter.com/{{ project.exttwitter }}"><i class="icon fa-twitter" style="color:grey;"></i></a> {% endif %}{% if project.extgithub %}<a href="https://github.com/{{ project.extgithub }}"><i class="icon fa-github" style="color:grey;"></i></a>{% endif %}
+              </p>
             </div>
           </div>
           {{ project.excerpt | markdownify }}

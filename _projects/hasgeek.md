@@ -5,6 +5,8 @@ title: HasGeek
 role: Developer
 duration: Dec 2014 - Present
 exturl: https://hasgeek.com
+exttwitter: hasgeek
+extgithub: hasgeek
 logo: hasgeek.png
 shortcode: hasgeek
 excerpt: >
