@@ -16,7 +16,7 @@ excerpt: >
 
 I joined HasGeek as an intern during my final year of engineering and joined fulltime after I graduated (May 2015).
 
-I started off as the sole **Android developer** on HasGeek's [Talkfunnel](https://play.google.com/store/apps/details?id=com.hasgeek.funnel) app, and then moved on to working on HasGeek's many web products - [Hasjob](https://hasjob.co), [Talkfunnel](https://talkfunnel.com), [Lastuser](https://auth.hasgeek.com), etc. They are all built primarily on **Python+Flask+Postgresql**, along with HasGeek's custom libraries such as [baseframe(UI)](https://github.com/hasgeek/baseframe), [coaster(utilities)](https://github.com/hasgeek/coaster) and [many others](https://github.com/hasgeek/).
+I started off as the sole **Android developer** on HasGeek's [Talkfunnel](https://play.google.com/store/apps/details?id=com.hasgeek.funnel) app, and then moved on to working on HasGeek's many web products - [Hasjob](https://hasjob.co), [Talkfunnel](https://talkfunnel.com), [Lastuser](https://auth.hasgeek.com), etc. They are built primarily on **Python+Flask+Postgresql**, along with HasGeek's custom libraries such as [baseframe(UI)](https://github.com/hasgeek/baseframe), [coaster(utilities)](https://github.com/hasgeek/coaster) and [many others](https://github.com/hasgeek/).
 
 In the latter half of 2015, I served at the editor of [droidconIN 2015](https://droidcon.in/2015), HasGeek's android conference. I was responsible for framing the theme, inviting proposals and curating the talks and workshops.
 
