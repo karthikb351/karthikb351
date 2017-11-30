@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /blog/rc
+---
+<section id="one" style="text-align: center;">
+  <h1>The Recurse Center</h1>
+  <p style="font-size: smaller;"><i>This blog is an effort to document what work I do at The Recurse Center and keep me accountable.</i></p>
+</section>
+<section>
+  <div class="row">
+    {% for post in site.posts %}
+      {% if post.categories contains "rc" %}
+      <article class="{% cycle '6u', '6u$' %} 12u(small)">
+        <header>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+        <section>
+          {{ post.excerpt }}
+        </section>
+        <footer>
+          <ul class="actions">
+            <li><a href="{{ post.url }}" class="button">Read More</a></li>
+          </ul>
+        </footer>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   He has been involved with numerous online movements such as
   #SaveTheInternet, ChennaiRains.org, #SaveTheMap, etc.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://karthikbalakrishnan.com" # the base hostname & protocol for your site
+url: "https://karthikbalakrishnan.com" # the base hostname & protocol for your site
 
 owner:
   name: Karthik Balakrishnan
