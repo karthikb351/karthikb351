@@ -4,7 +4,7 @@ title:  "RC.init()"
 date:   2017-11-30 20:30:00 -0500
 categories: rc
 permalink: /blog/recurse-init
-description: Hello world! Updates from Week 3 of 12 from The Recurse Center.
+description: Hello world! Updates from Week 4 of 12 from The Recurse Center.
 ---
 
 [The Recurse Center](https://recurse.com) is only as good as the effort you put into it. Allowing people to be entirely self directed is a double edged sword - the flexibility afforded allows for a lot of self exploration, but also makes it very easy to get distracted by all the little things and never really get any work done.
