@@ -4,7 +4,7 @@ email: karthikb351@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Karthik Balakrishnan is a developer by day and activist by night.
   He has been involved with numerous online movements such as
-  #SaveTheInternet, ChennaiRains.org, #SaveTheMap, etc.
+  #SaveTheInternet, ChennaiRains.org.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://karthikbalakrishnan.com" # the base hostname & protocol for your site
 
@@ -26,5 +26,5 @@ collections:
     output: true
     permalink: /work/:path/
 
-gems:
+plugins:
   - jekyll-redirect-from
