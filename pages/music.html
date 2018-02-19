@@ -4,18 +4,20 @@ permalink: /music
 description: >
   Karthik Balakrishnan's public playlists
 ---
-<section>
-  <h1>Playlists</h1>
-  <hr>
+<section id="one" style="text-align: center;">
+  <h1 style="margin-bottom: 0;">Playlists</h1>
+  <p style="font-size: smaller;"><i>Music I'm currently listening to</i></p>
   <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:21czopreupjlwllhdyfywvt4i&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
   <script src="https://apis.google.com/js/platform.js"></script>
   <div class="g-ytsubscribe" data-channelid="UC_HPJTd-eGqIJEWofzcxhNw" data-layout="full" data-count="hidden"></div>
-  <hr>
+</section>
+<section>
   <div class="row">
     {% for playlist in site.data.playlists %}
       <article class="12u 12u(small)">
         <header>
           <h2><a href="{{ playlist.url }}">{{ playlist.name }}</a></h2>
+          <p style="font-size: smaller;"><i>{{ playlist.blurb }}</i></p>
         </header>
         <section>
           {{ playlist.embed }}

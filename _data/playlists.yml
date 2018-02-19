@@ -1,9 +1,13 @@
 - name: "Sorted - the chill mix"
+  blurb: |
+    Sink into your couch, relax, and enjoy these mellow electronic beats. Headphones recommended.
   type: soundsgood
   url: "https://play.soundsgood.co/playlist/sorted-the-chill-mix"
   embed: '<iframe height="480" width="100%" src="https://play.soundsgood.co/embed/5a8903667b82e40f11dbb26c?hideCurator=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 
 - name: "intro to post rock"
+  blurb: |
+    A primer for the uninitiated.
   type: soundsgood
   url: "https://play.soundsgood.co/playlist/intro-to-post-rock"
   embed: '<iframe height="480" width="100%" src="https://play.soundsgood.co/embed/5a89213a7b82e40f11dbbbbc?hideCurator=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
