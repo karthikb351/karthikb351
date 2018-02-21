@@ -11,3 +11,10 @@
   type: soundsgood
   url: "https://play.soundsgood.co/playlist/intro-to-post-rock"
   embed: '<iframe height="480" width="100%" src="https://play.soundsgood.co/embed/5a89213a7b82e40f11dbbbbc?hideCurator=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+
+- name: "Indian Indie"
+  blurb: |
+    India's indie music scene is stellar.
+  type: soundsgood
+  url: "https://play.soundsgood.co/playlist/indian-indie"
+  embed: '<iframe height="480" width="100%" src="https://play.soundsgood.co/embed/5a8cf0e87463dc2911d169fa?hideCurator=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
