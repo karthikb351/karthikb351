@@ -25,6 +25,9 @@ collections:
   projects:
     output: true
     permalink: /work/:path/
+  orgs:
+    output: true
+    permalink: /work/:path/
 
 plugins:
   - jekyll-redirect-from

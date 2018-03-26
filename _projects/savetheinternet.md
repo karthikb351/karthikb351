@@ -10,7 +10,7 @@ extgithub: netneutrality/savetheinternet.in
 logo: savetheinternet.png
 shortcode: savetheinternet
 excerpt: >
-  One of India's largest online movements, which saw over [1 million Indians email their telecom regulator](http://timesofindia.indiatimes.com/tech/tech-news/Net-neutrality-Over-1-million-emails-leave-Trai-in-a-spot/articleshow/47032904.cms) in support of Net Neutrality, leading to a major victory in Feb 2016 with the [ban on differential pricing](http://tech.firstpost.com/news-analysis/trai-says-no-differential-pricing-rules-in-favour-of-net-neutrality-298318.html).
+  A campaign site for net neutrality that was used by [over 1 million people](http://timesofindia.indiatimes.com/tech/tech-news/Net-neutrality-Over-1-million-emails-leave-Trai-in-a-spot/articleshow/47032904.cms) which lead to a major victory in Feb 2016 with the [ban on differential pricing](http://tech.firstpost.com/news-analysis/trai-says-no-differential-pricing-rules-in-favour-of-net-neutrality-298318.html).
 ---
 
 I was involved with the campaign from the beginning, helping build the tech that supported the movement.

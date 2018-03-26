@@ -6,10 +6,42 @@ description: >
   Here are some of the projects he has been involved with.
 
 ---
-<section id="one">
-  <h2 style="margin: 0px;">Things I've been involved with</h2>
-  <h2><span style="font-size: 0.6em;">(in no particular order)</span></h2>
+<section id="one" >
+  <div style="text-align: center;">
+    <h1 style="margin-bottom: 0;">Work</h1>
+    <p style="font-size: smaller;"><i>I'm currently look for my next gig. Am I a good fit for your company?</i></p>
+  </div>
+  <!-- <h3>I've done a little bit of a lot of things</h3>
+  <p>My work has largely been at the intersection of technology and community.</p>
+  <p>I've worked on backend systems with Python(Flask) and Node(Express.js). I've written Android apps (with new libraries like RxJava). I've worked on frontend systems using Ractive, Vue.js, and Angular with CSS frameworks like Bootstrap, Pure CSS, Semantic-UI, Foundation, and Bulma. I've also worked as freelance graphic designer with Photoshop and Illustrator. I've some video post-processing with Adobe Audition, Primiere, and After Effects. I've as a activist and campaigner on digital rights issues. I've worked extensively with tech communities, conferences, and meetups.</p>
+  <h3>I'm a generalist.</h3>
+  <p>I care about building things that are open, ethical, and meaningful. If you are a small-ish team who is looking for someone to help serve as mix of product and technical</p> -->
+</section>
+<section>
+  <h2 style="text-align: center;">Organizations I've been involved with</h2>
   {% assign p = site.projects | sort: 'order' %}
+  {% assign o = site.orgs | sort: 'order' %}
+  {% for org in o %}
+      <div id="{{ org.shortcode }}">
+        <div class="row">
+          <div class="2u">
+            {% if org.logo %}
+            <img src="{{ site.baseurl }}/images/work/{{ org.logo }}" style="width: 100%;" alt="{{ org.title }}">
+            {% else %}
+            <a href="#" class="image avatar"><img src="{{ site.baseurl }}/images/avatar.jpg" alt=""></a>
+            {% endif %}
+          </div>
+          <div class="8u" style="padding-left:1em;">
+            <h3 style="margin: 0px;"">{% if org.nopage %}{{ org.title }}{% else %}<a href="{{ org.url }}">{{ org.title }}</a>{% endif %}</h3>
+            <small>({{ org. duration }})</small>
+            <p>{{ org.excerpt | markdownify }}{% if org.nopage %}{% else %}<a href="{{ org.url }}">Read more</a>{% endif %}</p>
+          </div>
+        </div>
+      </div>
+  {% endfor %}
+</section>
+<section>
+  <h2 style="text-align: center;">Projects I've worked on</h2>
   {% for project in p %}
       {% assign loopindex = forloop.index | modulo: 2 %}
       {% if loopindex == 1 or forloop.first %}
@@ -17,198 +49,26 @@ description: >
       {% endif %}
         <div id="{{ project.shortcode }}" class="6u 12u$(xsmall)">
           <div class="row">
-            <div class="4u 4u$(xsmall)">
+            <div class="4u">
               {% if project.logo %}
               <img src="{{ site.baseurl }}/images/work/{{ project.logo }}" style="width: 100%;" alt="{{ project.title }}">
               {% else %}
               <a href="#" class="image avatar"><img src="{{ site.baseurl }}/images/avatar.jpg" alt=""></a>
               {% endif %}
             </div>
-            <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-              <h3 style="margin: 0px;"">{% if project.nopage %}{{ project.title }}{% else %}<a href="{{ project.url }}">{{ project.title }}</a>{% endif %}</h3>
-              <p>{{ project.role }} {% if project.duration %}<span style="font-size: 0.8em;">({{ project.duration }})</span>{% endif %}<br>
-              {% if project.exturl %}<a href="{{ project.exturl }}"><i class="icon fa-link" style="color:grey;"></i></a> {% endif %}{% if project.exttwitter %}<a href="https://twitter.com/{{ project.exttwitter }}"><i class="icon fa-twitter" style="color:grey;"></i></a> {% endif %}{% if project.extgithub %}<a href="https://github.com/{{ project.extgithub }}"><i class="icon fa-github" style="color:grey;"></i></a>{% endif %}
+            <div class="8u" style="padding-left:1em;">
+              <h3 style="margin: 0px;""><a href="{% if project.nopage %}{{ project.exturl }}{% else %}{{ project.url }}{% endif %}">{{ project.title }}</a></h3>
+              <p>{{ project.excerpt | markdownify }}
+              {% if project.nopage %}
+              {% else %}
+              <a href="{{ project.url }}">Read more</a>
+              {% endif %}
               </p>
             </div>
           </div>
-          {{ project.excerpt | markdownify }}
-          <!-- <div id="{{ project.shortcode }}" class="modal" style="display:none;">
-            <div class="row">
-              <div class="2u 12u$(xsmall)">
-                <img src="{{ site.baseurl }}/images/work/{{ project.logo }}" style="width: 100%;" alt="{{ project.title }}">
-              </div>
-              <div class="10u 12u$(xsmall)">
-                <h3 style="margin: 0px;""><a href="{{ project.exturl }}">{{ project.title }}</a></h3>
-                <p>{{ project.role }} <span style="font-size: 0.8em;">({{ project.duration }})</span></p>
-                {{ project.content }}
-              </div>
-            </div>
-          </div> -->
-          {% if project.nopage %}
-          {% else %}
-          <ul class="actions">
-            <!-- <li><a href="#{{ project.shortcode }}" rel="modal:open" class="button">Read more</a></li> -->
-            <li><a href="{{ project.url }}" class="button">Read more</a></li>
-          </ul>
-          {% endif %}
         </div>
       {% if loopindex == 0 or forloop.last %}
       </div>
-      <hr>
       {% endif %}
   {% endfor %}
-  <!-- <div class="row">
-    <div class="6u 12u$(xsmall)">
-      <div class="row">
-        <div class="4u 4u$(xsmall)">
-          <img src="{{ site.baseurl }}/images/work/hasgeek.png" style="width: 100%;" alt="HasGeek">
-        </div>
-        <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-          <h3 style="margin: 0px;""><a href="https://hasgeek.com">HasGeek</a></h3>
-          <p>Developer <span style="font-size: 0.8em;">(Dec 2014 - Present)</span></p>
-        </div>
-      </div>
-      <p style="text-align:justify;">Managed HasGeek's Android app, <a href="https://play.google.com/store/apps/details?id=com.hasgeek.funnel">Talkfunnel</a>, worked on Python+Flask+Postgresql for <a href="https://hasjob.co">Hasjob</a>, <a href="https://auth.hasgeek.com">Lastuser</a>, <a href="https://github.com/hasgeek">etc</a>.<br>
-      Served as editor of <a href="https://droidcon.in/2015">droidconIN 2015</a>, one of India's Android conferences.
-      </p>
-      <div id="hasgeek" class="modal" style="display:none;">
-        <div class="row">
-          <div class="2u 12u$(xsmall)">
-            <img src="{{ site.baseurl }}/images/work/hasgeek.png" style="width: 100%;" alt="HasGeek">
-          </div>
-          <div class="10u 12u$(xsmall)">
-            <h3 style="margin: 0px;""><a href="https://hasgeek.com">HasGeek</a></h3>
-            <p>Developer <span style="font-size: 0.8em;">(Dec 2014 - Present)</span></p>
-            <p style="text-align:justify;">I joined HasGeek as an intern during my final year of engineering and joined fulltime after I graduated (May 2015).
-            <br>
-            I started off as the sole <b>Android developer</b> on HasGeek's <a href="https://play.google.com/store/apps/details?id=com.hasgeek.funnel">Talkfunnel</a> app, and then moved on to working on HasGeek's many web products - <a href="https://hasjob.co">Hasjob</a>, <a href="https://talkfunnel.com">Talkfunnel</a>, <a href="https://auth.hasgeek.com">Lastuser</a>, etc. They are all built primarily on <b>Python+Flask+Postgresql</b>, along with HasGeek's custom libraries such as <a href="https://github.com/hasgeek/baseframe">baseframe(UI)</a>, <a href="https://github.com/hasgeek/coaster">coaster(utilities)</a> and <a href="https://github.com/hasgeek/">many others</a>.</p>
-            <p style="text-align:justify;">In the latter half of 2015, I served at the editor of <a href="https://droidcon.in/2015">droidconIN 2015</a>, HasGeek's android conference. I was responsible for framing the theme, inviting proposals and curating the talks and workshops.<br><b>droidconIN 2015 saw 300+ attendees, 20+ talks and 8+ workshops</b>.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <ul class="actions">
-        <li><a href="#hasgeek" rel="modal:open" class="button">Read more</a></li>
-      </ul>
-    </div>
-    <div class="6u 12u$(xsmall)">
-      <div class="row">
-        <div class="4u 4u$(xsmall)">
-          <img src="{{ site.baseurl }}/images/work/sti.png" style="width: 100%;" alt="#SaveTheInternet">
-        </div>
-        <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-          <h3 style="margin: 0px;""><a href="http://savetheinternet.in">#SaveTheInternet</a></h3>
-          <p>Co-founder <span style="font-size: 0.8em;">(Apr 2015 - Present)</span></p>
-        </div>
-      </div>
-      <p style="text-align:justify;">One of India's largest online movements, which saw over <a href="http://timesofindia.indiatimes.com/tech/tech-news/Net-neutrality-Over-1-million-emails-leave-Trai-in-a-spot/articleshow/47032904.cms">1 million Indians email their telecom regulator</a> in support of Net Neutrality, leading to a major victory in Feb 2016 with the <a href="http://tech.firstpost.com/news-analysis/trai-says-no-differential-pricing-rules-in-favour-of-net-neutrality-298318.html">ban on differential pricing</a>.</p>
-
-      <div id="sti" class="modal" style="display:none;">
-        <div class="row">
-          <div class="2u 12u$(xsmall)">
-            <img src="{{ site.baseurl }}/images/work/sti.png" style="width: 100%;" alt="#SaveTheInternet">
-          </div>
-          <div class="10u 12u$(xsmall)">
-            <h3 style="margin: 0px;""><a href="http://savetheinternet.in">#SaveTheInternet</a></h3>
-            <p>Co-founder <span style="font-size: 0.8em;">(Apr 2015 - Present)</span></p>
-            <p style="text-align:justify;">I was involved with the campaign from the beginning, helping build the tech that supported the movement.
-            <br>The entire stack cost us <b>exactly zero</b>. It was built entirely on free tools and services, and managed to handle over 2 million visitors over a span of just 14 days.</p>
-            <p style="text-align:justify;">I spoke about <a href="https://speakerdeck.com/karthikb351/how-we-ran-number-savetheinternet-for-free-1">How we ran #SaveTheInternet for free</a> at Barcamp Bangalore in 2015.</p>
-          </div>
-        </div>
-
-      </div>
-      <ul class="actions">
-        <li><a href="#sti" rel="modal:open" class="button">Read more</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="6u 12u$(xsmall)">
-      <div class="row">
-        <div class="4u 4u$(xsmall)">
-          <img src="{{ site.baseurl }}/images/work/iff.png" style="width: 100%;" alt="HasGeek">
-        </div>
-        <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-          <h3 style="margin: 0px;""><a href="http://internetfreedom.in">Internet Freedom Foundation</a></h3>
-          <p>Co-founder <span style="font-size: 0.8em;">(Feb 2016 - Present)</span></p>
-        </div>
-      </div>
-      <p style="text-align:justify;">Born out of the #SaveTheInternet movement, IFF aims to fight for your digital rights. Tackling issues such as net neutrality, censorship, freedom of speech and encryption.</p>
-      <div id="iff" class="modal" style="display:none;">
-        <div class="row">
-          <div class="2u 12u$(xsmall)">
-            <img src="{{ site.baseurl }}/images/work/iff.png" style="width: 100%;" alt="HasGeek">
-          </div>
-          <div class="10u 12u$(xsmall)">
-            <h3 style="margin: 0px;""><a href="http://internetfreedom.in">Internet Freedom Foundation</a></h3>
-            <p>Co-founder <span style="font-size: 0.8em;">(Feb 2016 - Present)</span></p>
-            <p style="text-align:justify;">I was one of the initial members, helping frame the goals and roadmap for the foundation. I'm also involved with leading and managing tech projects under IFF.</p>
-          </div>
-        </div>
-      </div>
-
-      <ul class="actions">
-        <li><a href="#iff" rel="modal:open" class="button">Read more</a></li>
-      </ul>
-    </div>
-    <div class="6u 12u$(xsmall)">
-      <div class="row">
-        <div class="4u 4u$(xsmall)">
-          <img src="{{ site.baseurl }}/images/work/cro.png" style="width: 100%;" alt="HasGeek">
-        </div>
-        <div class="8u 8u$(xsmall)" style="padding-left:1em;">
-          <h3 style="margin: 0px;""><a href="http://chennairains.org">ChennaiRains.org</a></h3>
-          <p>Co-founder <span style="font-size: 0.8em;">(Dec 2015)</span></p>
-        </div>
-      </div>
-      <p style="text-align:justify;">Built a rapid-response crowdsourced site in response to the floods in Chennai. It was used by thousands of people to crowdsource and coordinate places for shelter, food, aid and people in distress. It also evolved to provide realtime updates from neighbourhoods in the city.</p>
-      <div id="cro" class="modal" style="display:none;">
-        <div class="row">
-          <div class="2u 12u$(xsmall)">
-            <img src="{{ site.baseurl }}/images/work/cro.png" style="width: 100%;" alt="HasGeek">
-          </div>
-          <div class="10u 12u$(xsmall)">
-            <h3 style="margin: 0px;""><a href="http://chennarains.org">ChennaiRains.org</a></h3>
-            <p>Co-founder <span style="font-size: 0.8em;">(Dec 2015)</span></p>
-            <p style="text-align:justify;">Along with a few others, <a href="http://chennarains.org">ChennaiRains.org</a> was setup within a few hours of the floods starting, around 2am. It started with just a handful of people and grew to over 200 volunteers in 3 days. In addition to building the website and supporting tech, I helped setup the communications channels and tools to manage all the data and volunteers. It was a combination of Slack and Google Spreadsheets that powered the whole campaign, with some scripting to glue it all together.</p>
-          </div>
-        </div>
-      </div>
-
-      <ul class="actions">
-        <li><a href="#cro" rel="modal:open" class="button">Read more</a></li>
-      </ul>
-    </div>
-  </div> -->
 </section>
-<!-- <section id="two">
-  <div class="row">
-    <article class="6u 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/01.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/01.jpg" alt="" /></a>
-      <p></p>
-    </article>
-    <article class="6u$ 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/02.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/02.jpg" alt="" /></a>
-      <p></p>
-    </article>
-    <article class="6u 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/03.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/03.jpg" alt="" /></a>
-      <p></p>
-    </article>
-    <article class="6u$ 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/04.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/04.jpg" alt="" /></a>
-</a></h3>
-      <p></p>
-    </article>
-    <article class="6u 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/05.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/05.jpg" alt="" /></a>
-      <p></p>
-    </article>
-    <article class="6u$ 12u$(xsmall) work-item">
-      <a href="{{ site.baseurl }}/images/fulls/06.jpg" class="image fit thumb"><img src="{{ site.baseurl }}/images/thumbs/06.jpg" alt="" /></a>
-      <p></p>
-    </article>
-  </div>
-</section> -->
