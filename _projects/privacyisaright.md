@@ -11,4 +11,4 @@ exttwitter: privacyisright
 excerpt: >
   A campaign to advocate to protect and uphold your Right to Privacy.
 ---
-I help with designing and building the [privacyisaright.in](http://privacyisaright.in) website, setting up it's online presense and designing the logo.
+I help with designing and building the [privacyisaright.in](http://privacyisaright.in) website, setting up it's online presence and designing the logo.
