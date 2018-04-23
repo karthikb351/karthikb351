@@ -1,5 +1,5 @@
 ---
-title: Why I'm joining Insider
+title: Why I've joined Insider
 date: 2018-04-23 20:34:54 +0530
 layout: post
 permalink: "/blog/whats-next-for-me"
