@@ -1,8 +1,8 @@
 ---
-title: I'm just joined Insider.in
+title: I've just joined Insider.in
 date: 2018-04-23 20:34:54 +0530
 layout: post
-permalink: "/blog/whats-next-for-me"
+permalink: "/blog/i-ve-just-joined-insider"
 description: After three years at HasGeek, this seems like the next logical step.
   Here's what I'm going to be working on.
 categories: []
@@ -19,7 +19,7 @@ You'd be hard pressed to find a company that strives to be as fair, open, and in
 
 I may not work there anywhere, but HasGeek has irreversibly shaped my outlook on things, and how to do things _the right way_.
 
-That said, looking back at the last three years there, I've come to realize that I need to try something new - if not anything else but for the sake of something new. And after talking to [Neehar](https://twitter.com/neeharv), it became very apparent that Insider was the best next step I could take.
+That said, looking back at the last three years there, I've come to realize that I need to try something new - if not anything else but for the sake of something new. And after talking to [Abhishek](https://twitter.com/abhishekmadan) and [Neehar](https://twitter.com/neeharv), it became very apparent that Insider was the best next step I could take.
 
 ### What I'm doing at Insider
 
