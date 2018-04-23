@@ -1,28 +1,29 @@
 ---
-title: Why I've joined Insider
+title: I'm just joined Insider.in
 date: 2018-04-23 20:34:54 +0530
 layout: post
 permalink: "/blog/whats-next-for-me"
-description: 'Insider is a '
+description: After three years at HasGeek, this seems like the next logical step.
+  Here's what I'm going to be working on.
 categories: []
 ---
-Today is my first day at [Insider](https://insider.in) and after nearly three years at HasGeek - the first and only company I've worked at - it's awfully bittersweet to write this.
+Today is my first day at [Insider](https://insider.in), and after nearly three years at HasGeek - the first and only company I've worked at - it's awfully bittersweet to write this.
 
-I could not have found a better place to work at straight out of college. Nearly every opportunity I've gotten (and projects I've been involved with) can be traced back to HasGeek in some way. I owe [Kiran](https://twitter.com/jackerhack) and [Zainab](https://twitter.com/zainabbawa) immensely for giving me a chance then and for constantly backing me over the past three years.
+I could not have found a better place company to join straight out of college. Nearly every opportunity I've gotten (and things I've been involved with) can be traced back to HasGeek in some way. I owe [Kiran](https://twitter.com/jackerhack) and [Zainab](https://twitter.com/zainabbawa) immensely for giving me a chance then and for constantly backing me over the past three years.
 
-Of all the things I love about HasGeek, the one that I value the most is the unyielding set of principles with which Kiran and Zainab operate it.
+Of all the things I love about HasGeek, the one that I value the most is the unyielding set of principles with which Kiran and Zainab operate it. And it shows, because nearly everyone who as worked at HasGeek has internalized those principles in some way.
 
-[Free childcare at all the conferences](https://medium.com/hasgeek/we-have-childcare-facilities-droidconin-and-all-hasgeek-conferences-going-forward-70d520762a11), [100% open sourced tech](https://github.com/hasgeek), [matching donations of employees to causes they support](https://twitter.com/jackerhack/status/550953305845682176), [a no-questions-asked refund policy](https://hasgeek.com/about/policy/refunds) (even after the event), [a completely free job board](https://hasjob.co), the list goes on. 
+There was always a simple lens through which every decision was made - "is this the most fair and honest way to do this?". For a bootstrapped company in a highly stressful and competitive space, you could easily justify not doing a lot of these things and nobody would question it. And yes, HasGeek had [free childcare at all the conferences](https://medium.com/hasgeek/we-have-childcare-facilities-droidconin-and-all-hasgeek-conferences-going-forward-70d520762a11), [100% open sourced their tech](https://github.com/hasgeek), [matched donations of employees to causes they support](https://twitter.com/jackerhack/status/550953305845682176), [implemented no-questions-asked refund policy](https://hasgeek.com/about/policy/refunds) (even after the event), [ran a completely free job board for the community](https://hasjob.co), and the list goes on. 
 
 You'd be hard pressed to find a company that strives to be as fair, open, and inclusive as HasGeek does.
 
-I may not work there anywhere, but HasGeek has irreversibly shaped my outlook on things, and how to do them _right_.
+I may not work there anywhere, but HasGeek has irreversibly shaped my outlook on things, and how to do things _the right way_.
 
-Looking back at the last three years at HasGeek, I just realized that I need to try something new - if not anything else but for the sake of something new. After talking to [Neehar](https://twitter.com/neeharv), it became very apparent that Insider was the best next step I could take.
+That said, looking back at the last three years there, I've come to realize that I need to try something new - if not anything else but for the sake of something new. And after talking to [Neehar](https://twitter.com/neeharv), it became very apparent that Insider was the best next step I could take.
 
 ### What I'm doing at Insider
 
-Insider is a highly curated online ticketing and events platform. Part of my job is going to be working on their engineering team and across their tech stack (which is largely in JavaScript).
+Insider is a highly curated online ticketing and events platform. Part of my job is going to be working on their engineering team and across their tech stack (which is largely in JavaScript) - something I've not had a chance to do much off. The prospect of working with a large(r) engineering team on a big product with millions of users is very exciting.
 
 The more interesting part, however, is that I'm also going to help build out the organizer and community tools on Insider.
 
