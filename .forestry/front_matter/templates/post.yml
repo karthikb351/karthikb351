@@ -34,4 +34,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/running-a-community-in-2018-a-look-back-at-the-first-100-weeks.md
 - _posts/2018-04-24-why-i-m-joining-insider-in.md
