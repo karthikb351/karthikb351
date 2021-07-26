@@ -17,11 +17,23 @@ I went into this without a real plan as such, and that actually ended up being a
 
 In a little over a month, me and chat managed to build and deploy v0.1 of several projects:
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/karthikb351/distrava" data-iframely-url="//cdn.iframe.ly/okgWQtd"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/karthikb351/razorpay-stream-alerts" data-iframely-url="//cdn.iframe.ly/aY2lNQe"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="row">
+  <article class="col-6 col-12-xsmall work-item">
+    <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/karthikb351/distrava" data-iframely-url="//cdn.iframe.ly/okgWQtd"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+  </article>
+  <article class="col-6 col-12-xsmall work-item">
+    <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/karthikb351/razorpay-stream-alerts" data-iframely-url="//cdn.iframe.ly/aY2lNQe"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+  </article>
+  <article class="col-6 col-12-xsmall work-item">
+    <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/ReRollBLR/telegram-discord-sync" data-iframely-url="//cdn.iframe.ly/YYMf8Ep"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+  </article>
+</div>
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/ReRollBLR/telegram-discord-sync" data-iframely-url="//cdn.iframe.ly/YYMf8Ep"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+
+
+
+
 
 
 ## Self imposed rules
