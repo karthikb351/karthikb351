@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join our Advent of Code community on Discord!
-date: 2021-07-26 11:35:48 +0530
+date: 2021-07-26 21:30:00 +0530
 categories: []
 permalink: "/blog/programming-puzzles-discord"
 description: Let's solve some programming puzzles together every week!
