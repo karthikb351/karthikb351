@@ -20,7 +20,7 @@ I've been streaming on Twitch ([@karthikb351](https://twitter.com/karthikb351)) 
 ## Who is this for?
 
 * If you are someone who has some basic understanding of a programming language, these problems are going to be more logic challenges than something where the code is complicated.
-* If you are something who codes for their day job, this is a great oppurtunity so spend a few minutes every week to work on some fun puzzles, and explore solutions from other people. I personally have found these sorts of programming problems to be a welcome change of pace from what I usually do at work (which, let's face it, is ultimately 99% just writing  CRUD apps).
+* If you are something who codes for their day job, this is a great oppurtunity to spend a few minutes every week to work on some fun puzzles, and explore solutions from other people. I personally have found these sorts of programming problems to be a welcome change of pace from what I usually do at work (which, let's face it, is ultimately 99% just writing  CRUD apps).
 
 
 
