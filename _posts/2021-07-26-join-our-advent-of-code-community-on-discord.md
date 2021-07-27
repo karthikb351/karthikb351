@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join our Advent of Code community on Discord!
-date: 2021-07-26 21:30:00 +0530
+date: 2021-07-26T21:30:00.000+05:30
 categories: []
 permalink: "/blog/programming-puzzles-discord"
 description: Let's solve some programming puzzles together every week!
@@ -15,7 +15,7 @@ I've been streaming on Twitch ([@karthikb351](https://twitter.com/karthikb351)) 
 
 ## TL;DR
 
-> A Discord server that's for folks who want to spend some time every week working on some simple programming challenges/puzzles, and then discussing them with others. Specifically designed for people new to (and experienced in) programming. Discord: [discord.gg/NvwRKJDG8H](https/://discord.gg/NvwRKJDG8H).
+> A Discord server that's for folks who want to spend some time every week working on some simple programming challenges/puzzles, and then discussing them with others. Specifically designed for people new to (and experienced in) programming. Discord: [discord.gg/NvwRKJDG8H](https://discord.gg/NvwRKJDG8H).
 
 ## Who is this for?
 
@@ -32,6 +32,6 @@ I've been a [huge fan of advent of code](https://karthikbalakrishnan.com/blog/ho
 
 ## How to participate
 
-More details to follow, but if you want to get started you should probably join the Discord at [discord.gg/NvwRKJDG8H](https/://discord.gg/NvwRKJDG8H).
+More details to follow, but if you want to get started you should probably join the Discord at [discord.gg/NvwRKJDG8H](https://discord.gg/NvwRKJDG8H).
 
 I'm looking at starting this by end of the week (July 30th).
