@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We're starting a community space"
-date: 2023-11-09 23:00:00 +0530
+date: 2023-11-09 21:00:00 +0530
 categories: []
 permalink: "/blog/the-hex-project"
 description: "We don't have a location yet (or even a name), but we'd like to share what we're going to be doing."
