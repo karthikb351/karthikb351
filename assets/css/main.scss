@@ -4,7 +4,7 @@
 @import 'functions';
 @import 'mixins';
 @import url('font-awesome.min.css');
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic");
 
 /*
 	Strata by HTML5 UP
@@ -59,7 +59,7 @@
 	}
 
 	body, input, select, textarea {
-		color: _palette(fg);
+		color: _palette(black);
 		font-family: _font(family);
 		font-size: 16pt;
 		font-weight: _font(weight);
