@@ -17,17 +17,17 @@ We want to better understand what tools and support you need. Managing communica
 
 We mean it when we say _your_ community. We want to be in the background. (no need to add our logo to your event posters!)
 
-We are not rent seeking. We don't view the space as an asset to lease to who pays the most, nor do we want to ask a flat rent from organisers for using the space. (unless it's a private event)
+We don't view the space as an asset to lease to who pays the most, nor do we want to ask a flat rent from you for using the space. (unless it's a private event)
 
-We hope to make a case for you to pay us a minority portion of the revenue you generate from your event (via ticket sales) so we both are incentivised to make an event that many people want to attend. We'll negotiate this with each organiser independently, as we would like the flexibility to give away the space for free to communities that are still very nascent, and have the bigger communities subsidise the space for others.
+We hope to make a case for you to share a minority portion of the revenue you generate from your event (via ticket sales) so we both are incentivised to make an event that many people want to attend. We'll make sure to earn that portion with the value we offer. We'll negotiate this with each organiser independently, as we would like the flexibility to give away the space for free to communities that are still very nascent, and have the bigger communities subsidise the space for others.
 
 We intend to first cover our costs (mainly rent, maintenance, furniture, etc) but we're not quitting our jobs to run this full-time, and won't be depending on this as our sole income source - atleast in the short term.
 
-We want to help communities set themselves up to be more sustainable, so things aren't only hinging on a few people's motivation, dedication, and time. We want everyone to be able to be compensated for their work, and encourage attendees to contribute to the community's upkeep - whether that's through volunteering, sponsoring tickets, or whatever else in-between.
+We want communities to set themselves up to be more sustainable so things aren't only hinging on a few people's motivation, dedication, and time. We want everyone to be able to be compensated for their work, and encourage attendees to contribute to the community's upkeep - whether that's through volunteering, sponsoring tickets, or whatever else in-between.
 
 
 ## To those who attend events,
-Thanks for sticking around to read this far.
+<small><i>Firstly, thanks for sticking around to read this far.</i></small>
 
 Welcoming and inclusive spaces are hard to come by. Making friends as adults is hard. Finding a place where you can disconnect from day-to-day life and indulge in something is invaluable. 
 
@@ -36,7 +36,7 @@ We want to be the best place to participate in thoughtful, kind, and interesting
 There is not a cafe with food & drinks. All events will scheduled with a start and end time. We don't want to be a space that people come and hang out at whenever they want. There are plenty of those already that do a better job than we could. We specifically want to be a venue where people show up for a specific thing at a specific time.
 
 ## To Bangalore culture,
-Well, at least Indiranagar culture to begin with.
+<small><i>Well, at least Indiranagar culture to begin with.</i></small>
 
 We want to have something interesting happening every week-night. In our experience, getting people to do something regularly after work is the key to making it a part of their's lives and schedules.
 
@@ -48,5 +48,3 @@ You deserve a better answer to when friends ask you what you do outside of work.
 Hopefully a lot! We know there are already many community spaces in the city, from small cafes to dedicated event spaces. We've probably done an event at many of them. We may continue to do events in other places.
 
 There is plenty of room under the tent! We aren't competing with others and we believe the more options organisers have, the more we'll be able to raise the bar for everyone.
-
-That being said, we have some thoughts on how we want to be a different kind of space.
