@@ -23,6 +23,8 @@ We intend to first cover our costs (mainly rent, maintenance, furniture, etc) bu
 
 We think that communities can't be hinging on a few people's motivation, dedication, and time. It has to be sustainable if it has to last. We want you to be able to be compensated for your work and time, and encourage a culture where attendees contribute to the community's upkeep - whether that's through volunteering, tickets, or whatever else in-between.
 
+If this sounds like the kind of place you'd like to host your community and organize your events, please get in touch at <a href="mailto:karthikb351@gmail.com">karthikb351@gmail.com</a> or <a href="https://twitter.com/karthikb351">@karthikb351 on Twitter.</a>
+
 
 ## To those who attend events,
 <small><i>Firstly, thanks for sticking around to read this far.</i></small>
