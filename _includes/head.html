@@ -1,52 +1,58 @@
 <head>
-    {% if page.title %}
-      {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
-    {% else %}
-      {% assign title =  site.title %}
-    {% endif %}
+  {% if page.title %} {% capture title %}{{ page.title }} | {{ site.title }}{%
+  endcapture %} {% else %} {% assign title = site.title %} {% endif %} {% if
+  page.description %} {% assign description = page.description %} {% else %} {%
+  assign description = site.description %} {% endif %} {% if page.image %} {%
+  assign image = page.image %} {% else %} {% capture image %}{{ site.url
+  }}/images/meta/thumbnail.jpg{% endcapture %} {% endif %}
 
-    {% if page.description %}
-      {% assign description =  page.description %}
-    {% else %}
-      {% assign description =  site.description %}
-    {% endif %}
+  <title>
+    {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{
+    site.title }}{% endif %}
+  </title>
+  <!-- Search engines -->
+  <meta name="description" content="{{ description }}" />
+  <!-- Google Plus -->
+  <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+  <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
+  <meta itemprop="name" content="{{ title }}" />
+  <meta itemprop="description" content="{{ description }}" />
+  <meta itemprop="image" content="{{ image }}" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <meta name="twitter:image" content="{{ image }}" />
+  <meta name="twitter:site" content="@karthikb351" />
+  <meta name="twitter:creator" content="@karthikb351" />
+  <!-- Open Graph Article (Facebook & Pinterest) -->
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:type" content="website" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS Feed of posts from karthikbalakrishnan.com"
+    href="/feed.xml"
+  />
+  <!--[if lte IE 8
+    ]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script
+  ><![endif]-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  <!--[if lte IE 8
+    ]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css"
+  /><![endif]-->
 
-    {% if page.image %}
-      {% assign image =  page.image %}
-    {% else %}
-      {% capture image %}{{ site.url }}/images/meta/thumbnail.jpg{% endcapture %}
-    {% endif %}
-
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <!-- Search engines -->
-    <meta name="description" content="{{ description }}">
-    <!-- Google Plus -->
-    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
-    <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
-    <meta itemprop="name" content="{{ title }}">
-    <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="{{ image }}">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="{{ description }}">
-    <meta name="twitter:image" content="{{ image }}">
-    <meta name="twitter:site" content="@karthikb351">
-    <meta name="twitter:creator" content="@karthikb351">
-    <!-- Open Graph Article (Facebook & Pinterest) -->
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ image }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:type" content="website">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
-
-    <!-- Syntax highlighting "Fruity" theme - http://jwarby.github.io/jekyll-pygments-themes/ -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/jquery.modal.css">
+  <!-- Syntax highlighting "Fruity" theme - http://jwarby.github.io/jekyll-pygments-themes/ -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ site.baseurl }}/assets/css/jquery.modal.css"
+  />
 </head>
