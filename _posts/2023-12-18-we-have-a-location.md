@@ -5,7 +5,8 @@ date: 2023-12-18 20:00:00 +0530
 categories: hex-project
 permalink: "/blog/we-have-a-venue"
 description: "We've signed a place. We open February 1st, 2024"
-
+excerpt: >
+    <p>We've signed a place. Things are moving pretty fast!</p>
 ---
 
 An update on [our community space plans](/blog/hex-project).

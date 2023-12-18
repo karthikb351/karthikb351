@@ -5,6 +5,8 @@ date: 2023-11-09 21:00:00 +0530
 categories: [hex-project]
 permalink: "/blog/the-hex-project"
 description: "We don't have a location yet (or even a name), but we'd like to share what we're going to be doing."
+excerpt: >
+    <p>We don't have a location yet (or even a name), but we'd like to share what we're going to be doing.</p>
 
 ---
 
