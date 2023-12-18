@@ -10,7 +10,7 @@ excerpt: >
 
 ---
 
-We are starting a community space. We don't have a location yet (or even a name), but we'd like to share what we're going to be doing.
+We are starting a community space. ~~We don't have a location yet (or even a name)~~ ([**Update: We have a location**](/blog/we-have-a-venue)), but we'd like to share what we're going to be doing.
 
 ## To fellow community organisers
 
