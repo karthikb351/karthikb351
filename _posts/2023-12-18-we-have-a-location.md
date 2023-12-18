@@ -6,7 +6,7 @@ categories: hex-project
 permalink: "/blog/we-have-a-venue"
 description: "We've signed a place. We open February 1st, 2024"
 excerpt: >
-    <p>We've signed a place. Things are moving pretty fast!</p>
+    <p>We've signed a place. We open February 1st, 2024</p>
 ---
 
 An update on [our community space plans](/blog/hex-project).
