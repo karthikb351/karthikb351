@@ -24,7 +24,7 @@ It's also important to reiterate that this is _your_ community. We want you to w
 
 The "model" is simple - we want to make a case for you to share a minority portion of the revenue you generate from your event (via ticket sales, sponsors, etc) so we are both incentivised to make an event that many people want to attend and support. We'll negotiate this with each organiser independently, as it's important to us that we have the flexibility to give away the space for free to those that are still very nascent and have the bigger communities subsidise the space for others.
 
-We intend to first cover our costs (mainly rent, maintenance, furniture, etc) but we're not quitting our jobs to run this full-time, and won't be depending on this as our sole income source - at least in the short term. We'll be as open as we can with what we use any money we generate for and how it ultimately makes it a better space for your community and others.
+We intend to first cover our costs (mainly rent, maintenance, furniture, etc) but we're not quitting our jobs to run this full-time, and won't be depending on this as our sole income source - at least in the short term. We will try to talk openly about where we invest our money and how it ultimately makes it a better space for your community and others.
 
 We think that communities can't be hinging on a few people's motivation, dedication, and time. It has to be sustainable if it has to last. We want you to be able to be compensated for your work and time and encourage a culture where attendees contribute to the community's upkeep - whether that's through volunteering, buying tickets, or whatever else in between.
 
@@ -44,7 +44,7 @@ Well, at least Indiranagar culture to begin with.
 
 We want to have something interesting happening every weeknight. In our experience, getting people to do something regularly after work is the key to making it a part of their lives and schedules.
 
-We're tired of the default social hangout being a bar or pub. It's noisy, it's expensive, it's repetitive. We want to push more people to try new things, help them meet new people, and have a richer, fuller life as a result.
+We're tired of the default social hangout being a bar or pub. It's noisy, it's expensive, it's repetitive. We want you to try new things, help you meet new people, and have a richer, fuller life as a result.
 
 You deserve a better answer to when friends ask you what you do outside of work.
 
