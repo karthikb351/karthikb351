@@ -54,4 +54,4 @@ You deserve a better answer to when friends ask you what you do outside of work.
 
 Hopefully a lot! We know there are already many community spaces in the city, from small cafes to dedicated event spaces. We've probably done an event at many of them (and will in the future!)
 
-But there is plenty of room under the tent. We aren't competing with other places and honestly believe the more options organisers have, the more we'll be able to raise the bar for everyone.
+But there is plenty of room under the tent. We believe that growing the community for these events is the real work - it's not a zero sum game. We're taking a bet that our sensibilities and approach will make people want to work with us - but ultimately the more options organisers and audiences have, the better it is for everyone.
