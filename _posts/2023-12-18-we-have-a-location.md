@@ -4,9 +4,9 @@ title: "We have a venue"
 date: 2023-12-18 20:00:00 +0530
 categories: hex-project
 permalink: "/blog/we-have-a-venue"
-description: "We've signed a place. We open February 1st, 2024"
+description: "We've signed a place. We open February 15th, 2024"
 excerpt: >
-    <p>We've signed a place. We open February 1st, 2024</p>
+    <p>We've signed a place. We open February 15th, 2024</p>
 ---
 
 An update on [our community space plans](/blog/hex-project).
@@ -19,4 +19,4 @@ Plan to spend the next few days and weeks talking to friends and well-wishers - 
 
 We are going to be right next to Lavonne, on Double Road, Indiranagar. It feels like the sweet spot of not having the premium of 12th Main but still close and accessible to where people might want to meet and do something together. I'm glad we took our time until we found something we liked.
 
-Okay, should keep these short. More soon. See you February 1st, 2024.
+Okay, should keep these short. More soon. See you February 15th, 2024.
