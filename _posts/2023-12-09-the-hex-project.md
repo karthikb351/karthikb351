@@ -48,7 +48,7 @@ We're tired of the default social hangout being a bar or pub. It's noisy, it's e
 
 You deserve a better answer to when friends ask you what you do outside of work.
 
-> There is a beautiful term for this in sociology called <a href="[http://example.com/](https://www.thegoodtrade.com/features/third-place-community-spaces/)" target="_blank">third places</a> which I think encapsulates what we want to be.
+> There is a beautiful term for this in sociology called <a href="https://www.thegoodtrade.com/features/third-place-community-spaces/" target="_blank">third places</a> which I think encapsulates what we want to be.
 
 ## What's different about us?
 
