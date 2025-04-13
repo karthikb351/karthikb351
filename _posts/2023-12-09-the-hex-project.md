@@ -28,7 +28,7 @@ We intend to first cover our costs (mainly rent, maintenance, furniture, etc) bu
 
 We think that communities can't be hinging on a few people's motivation, dedication, and time. It has to be sustainable if it has to last. We want you to be able to be compensated for your work and time and encourage a culture where attendees contribute to the community's upkeep - whether that's through volunteering, buying tickets, or whatever else in between.
 
-If this sounds like the kind of place you'd like to be at and organize your events, please get in touch at [karthikb351@gmail.com](mailto:karthikb351@gmail.com) or [@karthikb351 on Twitter](https://twitter.com/karthikb351).
+If this sounds like the kind of place you'd like to be at and organize your events, please get in touch at [karthik@underline.center](mailto:karthik@underline.center) or [@karthikb351 on Twitter](https://twitter.com/karthikb351).
 
 ## To those who attend events
 
@@ -48,7 +48,7 @@ We're tired of the default social hangout being a bar or pub. It's noisy, it's e
 
 You deserve a better answer to when friends ask you what you do outside of work.
 
-> There is a beautiful term for this in sociology called [third places](https://www.thegoodtrade.com/features/third-place-community-spaces/) which I think encapsulates what we want to be.
+> There is a beautiful term for this in sociology called <a href="[http://example.com/](https://www.thegoodtrade.com/features/third-place-community-spaces/)" target="_blank">third places</a> which I think encapsulates what we want to be.
 
 ## What's different about us?
 
