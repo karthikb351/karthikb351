@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 4
 layout: work
 title: 'Internet Freedom Foundation'
 role: Co-Founder
