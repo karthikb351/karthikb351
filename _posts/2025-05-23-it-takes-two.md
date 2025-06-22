@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On ex-es and current partners (in crime)"
-date: 2025-06-22 01:30:00 +0530
+date: 2025-06-23 01:30:00 +0530
 categories: indie-web-club
 permalink: "/blog/partners-in-crime"
 description: "One (plausible) answer for how I stay motivated to work on things"
@@ -31,7 +31,7 @@ In the years after college, that same pattern played. I would meet someone inter
 
 None of these are particularly well-thought out plans, it was just a fun thing to do with someone I love and that was all it needed.
 
-Punjit and I started Underline Center in 2024, but the seeds of our shenanigans were planted started years ago. We've done some random things like [live streaming board games](https://www.youtube.com/watch?v=DDRSvMxjuJY) to working on a puzzle hunt for his office. We co-hosted christmas/nye parties for our friends.
+Punjit and I started Underline Center in 2024, but the seeds of our shenanigans were planted years ago. We've done some random things like [live streaming board games](https://www.youtube.com/watch?v=DDRSvMxjuJY) to working on a puzzle hunt for his office. We co-hosted christmas/nye parties for our friends.
 
 I'm a bit self conscious even writing about some of this because it feels a bit like tooting my own horn, but what my personal learning as been is that it's so easy to get lost in the sauce of working on something by yourself. If you are reading this post I suspect you already know what I mean. Find a partner in crime, even if they are the driver and you are along for the ride. It will teach you to be accountable, to articulate and communicate why you care about something, to vocalise what you want to achieve, and it is also an exercise in learning to share and let go of control (which I still struggle with at times). Not everything is going to work, there will be many dead ends, but it's a lot more forgiving a process when there is someone to bitch about problems with.
 
